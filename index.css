@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "samurai";
+    src: url("font/samurai.ttf")
+}
+
+body {
+    background-color: #86836D;
+}
+
+#logo {
+   
+font-family: "samurai";
+   font-size: 45px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
+}
+
+
+/*  Took this out to keep the logo proportions intact
+#logo img {
+    height: 150px;
+    width: 150px;
+}
+*/
+
+#navbar {
+ 
+    font-family: "Acme", sans-serif;
+    background-color: #514C4E;
+  
+    text-align: right;
+    
+}
+
+#navbar li {
+     display: inline-block;
+     text-align: center;
+     font-size: 25px;
+     color: #D2D4CB;
+     padding-left: 10px;
+     padding-right: 15px;
+}
+
+#about {
+    background-color: #998888;
+    border-bottom:  #D2D4CB;
+    padding: 2px 5px 2px 10px;
+    
+}
+
+#about p {
+    font-family: "Open Sans", sans-serif;
+}
+
+#menu {
+    background-color: #998888;
+    margin: 20px 0px 15px 0px;
+   
+    padding: 2px 0px 2px 10px;
+}
+
+#menu ul {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+
+#footer {
+  
+    /*border: 2px solid red;*/
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    
+}
+
+ #copyright {
+     text-align: center;
+     font-size: 12px;
+ }
+.special-img {
+    width:300px;
+    height:300px;
+    border:1px solid black;
+}
+
+
